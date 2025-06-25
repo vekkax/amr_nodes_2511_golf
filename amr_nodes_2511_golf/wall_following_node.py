@@ -103,7 +103,6 @@ class WallFollowing(Node):  # Redefine node class
         self.error_ld=(self.error_l-self.error_l_prev)/self.time_lapse
         
         
-        
         if self.switch_flag:
             self.nav_vel.angular.z=-self.error_r*kp - kd*self.error_rd
             self.nav_vel.angular.z=self.limit(self.nav_vel.angular.z,3.0)

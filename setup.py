@@ -25,6 +25,8 @@ setup(
                         'rumble_node = amr_nodes_2511_golf.rumble_node:main',
                         'vel_stamper_node = amr_nodes_2511_golf.vel_stamper_node:main',
                         'wall_following_node = amr_nodes_2511_golf.wall_following_node:main',
+                        'follow_the_gap_node = amr_nodes_2511_golf.follow_the_gap_node:main',
+
         ],
     },
 )
